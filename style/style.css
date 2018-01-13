@@ -67,7 +67,7 @@ a {
 }
 .hero,
 nav {
-    background-color: #55f85d!important
+    background-color: #009de6!important
 }
 
 .rule {
@@ -130,11 +130,11 @@ nav strong:hover {
 }
 @media screen and (max-width: 768px) {
     .nav-menu.is-active {
-        background-color: #55f85d
+        background-color: #009de6
     }
 }
 footer {
-    background-color: #55f85d!important;
+    background-color: #009de6!important;
     width: 100%
 }
 footer * {
