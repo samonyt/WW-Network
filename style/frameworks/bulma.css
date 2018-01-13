@@ -1135,7 +1135,7 @@ a.box:active {
 }
 .button.is-danger:active,
 .button.is-danger.is-active {
-    background-color: #ff1f4b;
+    background-color: #132f47;
     border-color: transparent;
     box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
     color: #fff;
@@ -2430,8 +2430,8 @@ a.box:active {
     color: #000;
 }
 .tag.is-admin {
-    background-color: #399ffd;
-    color: #000;
+    background-color: #a300ff;
+    color: #fff;
 }
 .tag.is-success {
     background-color: #23d160;
@@ -2439,19 +2439,19 @@ a.box:active {
 }
 .tag.is-mod {
     background-color: #2fbdac;
-    color: #000;
+    color: #fff;
 }
 .tag.is-ceo {
-    background-color: #e01e74;
-    color: #000;
+    background-color: #0fbbff;
+    color: #fff;
 }
 .tag.is-headadmin {
-    background-color: #0086ff;
-    color: #000;
+    background-color: #bd47ff;
+    color: #fff;
 }
 .tag.is-manager {
-    background-color: #b469f0;
-    color: #000;
+    background-color: #0066ff;
+    color: #fff;
 }
 .tag.is-medium {
     font-size: 1rem;

@@ -4,29 +4,34 @@ html {
     padding: 0;
     height: 100%
 }
+
 body {
     background-color: #0068a5;
     min-height: 100%
 }
+
 #content {
     background-color: #0068a5;
 }
+
 .hero {
-    background-image: url(https://raw.githubusercontent.com/NetskyCommunity/NetskyWebsite/master/img/header-blur.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: stretch;
     background-size: cover;
 }
+
 #content-inner {
     background: #0068a5;
-    max-width: 85em;
+    max-width: 75em;
     margin: 0 auto;
     padding: 2.5em 0
 }
+
 a {
     transition: all .1s linear
 }
+
 .someone {
     transition: transform .25s ease;
     border-radius: 100%;
@@ -35,70 +40,76 @@ a {
     display: inline-block;
     max-width: 100%
 }
+
 .someone:hover {
     transform: scale(1.1) rotate(360deg)
 }
+
 .columns .column {
     max-width: 100%;
     margin: auto;
     font-size: 13px;
 }
+
 .ceo {
-    border: 5px solid #e01e74
+    border: 5px solid #0fbbff
 }
+
 .manager {
-    border: 5px solid #b469f0
+    border: 5px solid #0066ff
 }
+
 #managers {
     max-width: 50em;
     margin: 0 auto
 }
+
 .admin {
-    border: 5px solid #399ffd
+    border: 5px solid #a300ff
 }
+
 .headadmin {
-    border: 5px solid #0086ff
+    border: 5px solid #bd47ff
 }
+
 .mod {
     border: 5px solid #2fbdac
 }
-.partner {
-    border: 5px solid #E67E22
-}
+
 .hero,
 nav {
     background-color: #009de6!important
 }
 
 .rule {
-  width: 90%;
-  max-width: 50em;
-  margin: 0 auto;
-  margin-top: 2em;
-  padding: 2em;
-  color: #000;
-  background-color: rgba(27, 124, 169, 0.1);
-  border-radius: 3px;
-  transition: all 0.25s;
-  text-align: left;
+    width: 90%;
+    max-width: 50em;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 2em;
+    color: #000;
+    background-color: rgba(27, 124, 169, 0.1);
+    border-radius: 3px;
+    transition: all 0.25s;
+    text-align: left;
 }
 
 .rule::content {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .rule:hover {
-  background-color: rgba(27, 152, 169, 0.1);
-  transform: scale(1.05);
+    background-color: rgba(27, 152, 169, 0.1);
+    transform: scale(1.05);
 }
 
 .rule strong {
-  color: #333;
+    color: #333;
 }
 
 .rule a {
-  color: #333;
-  text-decoration: underline;
+    color: #333;
+    text-decoration: underline;
 }
 
 #netsky-hero-logo {
@@ -111,38 +122,48 @@ nav a,
 nav strong {
     color: #fff!important
 }
+
 .nav-item:hover,
 nav a:hover,
 nav strong:hover {
     color: #efeaea!important
 }
+
 .nav-toggle:hover {
     background-color: #efeaea !important
 }
+
 .nav-toggle span {
     background-color: #F7FEF7!important
 }
+
 .hero-body {
     text-align: center
 }
+
 .hero-body h1.title {
     color: #efeaea!important
 }
+
 @media screen and (max-width: 768px) {
     .nav-menu.is-active {
         background-color: #009de6
     }
 }
+
 footer {
     background-color: #009de6!important;
     width: 100%
 }
+
 footer * {
     color: #fff!important
 }
+
 footer a {
     text-decoration: underline!important
 }
+
 footer a:hover {
     color: # !important
 }
